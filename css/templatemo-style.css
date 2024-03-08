@@ -168,7 +168,7 @@ h1,h2,h3,h4,h5
 }
 /* end simpletextrotator */
 
-/* start home */       
+/* start home */    
 #home
 	{
         background: url('../images/home-bg.jpg');
@@ -180,15 +180,19 @@ h1,h2,h3,h4,h5
 	}
 #home h1
     {
-        border: 2px solid #D43F52;
-        color: #D43F52;
+        border: 2px solid #98081c;
+        color: #98081c;
         display: inline-block;
         letter-spacing: 6px;
         padding: 25px 35px;
         margin: 30px 0;
     }
-#home h2
+#h2 
     {
+        background: linear-gradient(right, lime 30%, cyan);
+        background-clip: text;
+        -webkit-background-clip: text;
+
         padding-bottom: 10px;
     }
 #home .btn
